@@ -235,7 +235,7 @@ export default function AdminDetail() {
                 + Add a lesson
               </p> 
               <img
-                src="../src/imgs/buttonCard.png"
+                src="/imgs/buttonCard.png"
                 style={{ width: "32px", height: "32px", cursor: "pointer" }}
                 onClick={() => {
                    setSessionToDelete(sessionItem.id);
@@ -699,7 +699,7 @@ export default function AdminDetail() {
             }}
           >
             <img
-              src="../src/imgs/warning.png"
+              src="/imgs/warning.png"
               style={{ width: "88px", height: "88px" }}
             />
             <h1>Delete Session?</h1> <p>This will delete the entire session and its lessons.</p>

@@ -76,7 +76,7 @@ export default function AdminContent() {
     e.preventDefault();
     const newData = {
       title: (e.target as any).title.value,
-      backdrop: "../src/imgs/background.png",
+      backdrop: "/imgs/background.png",
       type: "course",
     };
     if (newData.title.trim() == "") {
